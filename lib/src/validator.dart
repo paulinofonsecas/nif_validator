@@ -23,7 +23,7 @@ class NIFValidator {
   /// If the key is not present or its value is falsy, it returns a [NIFValidatorError] with code 1003 and the message "Não existe nenhuma informação acerca do NIF informado!".
   ///
   /// If an exception occurs during the validation process, it returns a [NIFValidatorError] with code 1004 and the message "Ocorreu um erro inesperado ao validar o NIF".
-  Future<NIFValidatorResult> validateBi(String nif) async {
+  Future<NIFValidatorResult> validate(String nif) async {
     if (nif.isEmpty) {
       return NIFValidatorError(
         code: 1001,
