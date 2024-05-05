@@ -3,7 +3,7 @@ import 'package:nif_validator/nif_validator.dart';
 void main() async {
   final validator = NIFValidator();
 
-  final nif = '005181092Be045';
+  final nif = '005489315Be041';
   final result = await validator.validate(nif);
 
   if (result.isValid) {
