@@ -1,5 +1,9 @@
 ## 1.0.2
 
+- Atualiza o projeto de exemplo.
+
+## 1.0.2
+
 - permite consultar nif independentemente das letras.
 
 ## 1.0.1
