@@ -34,7 +34,7 @@ final validator = NifValidator();
 3. Chame o método `validate` da instância, passando o NIF a ser validado como argumento:
 
 ```dart
-final result = validator.validate('123456789');
+final result = validator.validate('123456789AA001');
 ```
 
 O método `validate` retorna um objeto `ValidationResult` que contém as seguintes informações:
@@ -50,7 +50,7 @@ import 'package:nif_validator/nif_validator.dart';
 void main() {
   final validator = NifValidator();
 
-  final nif = '123456789';
+  final nif = '123456789AA001';
   final result = validator.validate(nif);
 
   if (result.isValid) {
