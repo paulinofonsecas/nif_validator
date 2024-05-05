@@ -1,12 +1,14 @@
 name: nif_validator
-description: A package to validate Angolan (NIF).
+description: Este pacote Dart fornece uma ferramenta 
+para validar NIFs (Número de Identificação Fiscal)
+em Angola através do endpoint do SEPE.
 version: 1.0.0
 repository: https://github.com/paulinofonsecas/nif_validator
 topics:
-  - BI
-  - NIF
-  - Angola
-  - Validator
+  - bi
+  - nif
+  - angola
+  - validator
 
 environment:
   sdk: ^3.3.2
