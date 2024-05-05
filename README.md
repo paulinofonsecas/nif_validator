@@ -47,16 +47,17 @@ O método `validate` retorna um objeto `ValidationResult` que contém as seguint
 ```dart
 import 'package:nif_validator/nif_validator.dart';
 
-void main() {
-  final validator = NifValidator();
+void main() async {
+  final validator = NIFValidator();
 
-  final nif = '123456789AA001';
-  final result = validator.validate(nif);
+  final nif = '005489315Be041';
+  final result = await validator.validate(nif);
 
   if (result.isValid) {
     print('NIF $nif é válido.');
+    print('Nome: ${(result as NIFValidatorResponse).name}.');
   } else {
-    print('NIF $nif é inválido: ${result.errorMessage}');
+    print('NIF $nif é inválido: ${(result as NIFValidatorError).message}');
   }
 }
 ```
