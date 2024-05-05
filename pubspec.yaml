@@ -1,7 +1,12 @@
 name: nif_validator
 description: A package to validate Angolan (NIF).
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/paulinofonsecas/nif_validator
+topics:
+  - BI
+  - NIF
+  - Angola
+  - Validator
 
 environment:
   sdk: ^3.3.2
