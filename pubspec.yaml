@@ -1,5 +1,5 @@
 name: nif_validator
-version: 1.1.0
+version: 1.1.1
 description: |
   Este pacote Dart fornece uma ferramenta
   para validar NIFs (Número de Identificação Fiscal)
