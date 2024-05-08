@@ -1,3 +1,7 @@
+## 1.1.0
+
+- Adiciona mensagem de erro especifica para quando o Serviço estiver indisponivel
+
 ## 1.0.3
 
 - Atualiza o projeto de exemplo.
