@@ -42,4 +42,10 @@ void main() {
     expect(result, isA<NIFValidatorError>());
     expect((result as NIFValidatorError).code, 1003);
   });
+
+  test('Confirma a indisponibilidade do servico', () async {
+    final result = await NIFValidator().validate('00612109200045');
+
+    expect((result as NIFValidatorError).code, 1004);
+  });
 }

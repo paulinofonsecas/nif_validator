@@ -53,7 +53,8 @@ class NIFValidator {
                 'indisponível, por favor tente mais tarde.') {
           return NIFValidatorError(
             code: 1004,
-            message: 'Não existe nenhuma informação acerca do NIF informado!',
+            message: 'Serviço de consulta temporariamente '
+                'indisponível, por favor tente mais tarde.',
           );
         }
         return NIFValidatorError(
