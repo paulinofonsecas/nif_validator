@@ -181,10 +181,10 @@ packages:
     dependency: "direct main"
     description:
       name: nif_validator
-      sha256: b4db1b7416aef68d103fd689e46b5ba030172a45bf1cd904eeb4e954b5e4d111
+      sha256: ff8cbe7781812614709e40a31f58aa1689eb257ca16525c19fabd47f5f7a44bd
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1"
+    version: "1.1.1"
   node_preamble:
     dependency: transitive
     description:

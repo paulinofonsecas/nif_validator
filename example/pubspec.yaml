@@ -9,7 +9,7 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
-  nif_validator: ^1.0.0
+  nif_validator: ^1.1.1
   # path: ^1.8.0
 
 dev_dependencies:
